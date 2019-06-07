@@ -1,0 +1,105 @@
+h3 {
+  text-align: center;
+}
+
+p {
+    margin-top: 3%;
+    margin-left: 15%;
+    background-color: blanchedalmond;
+    width: 70%;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.tabs {
+    font-family: 'Anton', sans-serif;
+
+}
+
+.card {
+    animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+}
+
+.translated-text {
+    width:100%;
+    font-family: 'Anton', sans-serif;
+}
+
+.Modal-btn {
+    text-align: center;
+    animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    margin-top: 3%;
+    font-family: 'Anton', sans-serif;
+}
+
+.carousel-text  {
+    font-size: 55px;
+    color: cornflowerblue;
+    font-family: 'Anton', sans-serif;
+
+
+}
+
+.carousel-indicators {
+    visibility: hidden;
+    
+}
+
+.upload-container {
+    text-align: center;
+    margin-top: 12%;
+    font-family: 'Anton', sans-serif;
+    animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.sap-container {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.file-field {
+        width:30%;
+        text-align: center;
+}
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+
+
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
