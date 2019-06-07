@@ -72,7 +72,7 @@ export default class Example extends React.Component {
                         <Row>
                             <Col sm="6">
                                 <p>This is app is designed to extract text from natural images, take the text and translate it into another language</p>
-                                <p>To use this, start by clicking the "choose a file/browse button", then upload a jpeg image with clear natural text. After selecting and image, hit the "translate" button.</p>
+                                <p>To use this, start by clicking the "choose a file/browse button", then upload a jpeg image with clear natural text. Make sure the text is legible. This will take a couple of seconds to extract the text, wait untill the text displays on the page. After text has been displayed, hit the "translate" button.</p>
                             </Col>
                         </Row>
                     </TabPane>
